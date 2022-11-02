@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1 {
+  font-family: 'Londrina Shadow', cursive;
+  filter: drop-shadow(2px 4px 1px #009dff);
+}
+.sdw {
+ box-shadow: inset 12px 12px 25px #393d41,
+            inset -12px -12px 25px #bfcdd9;
+}
+
+.nav {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.btn {
+  font-family: 'Londrina Shadow', cursive
+}
+
+.btn:hover {
+  background-color: palevioletred;
+}
+
+.h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.bg12
+{
+  background:url('https://s-media-cache-ak0.pinimg.com/736x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3.jpg');
+}
+.bg13 {
+  background:url("https://media.discordapp.net/attachments/933654325127938101/1025987346262392902/Logo_todo.png?width=789&height=492");
+}
+
+.bg20 {
+  border-radius : 20px 140px 140px 20px;
+  box-shadow:  2px 2px 5px #7c7d7d, 0px 0px 1px #e4e6e6;
+  backdrop-filter: blur(4px) saturate(103%);
+  -webkit-backdrop-filter: blur(4px) saturate(103%);
+  background-color: rgba(172, 204, 174, 0);
+}
+.bg10 {
+  width: 100%;
+  height: 7.5%;
+  background: -webkit-linear-gradient(0deg, rgba(217,218,224,0.69) 0, rgba(229,234,247,0.79) 7%, rgba(15,104,122,0.48) 100%), url("https://cdn.discordapp.com/attachments/933654325127938101/1020330258144170045/355360_adapted_landscape_2160x3840.jpg");
+  background: -moz-linear-gradient(90deg, rgba(217,218,224,0.69) 0, rgba(199,234,247,0.79) 7%, rgba(15,104,122,0.69) 100%), url("https://cdn.discordapp.com/attachments/933654325127938101/1020330258144170045/355360_adapted_landscape_2160x3840.jpg");
+  background: linear-gradient(90deg, rgba(217,218,224,0.69) 0, rgba(232,234,247,0.9) 7%, rgba(15,104,122,0.59) 100%), url("https://cdn.discordapp.com/attachments/933654325127938101/1020330258144170045/355360_adapted_landscape_2160x3840.jpg");
+  background-position: 50% 50%, 28% 67%;
+}
+
+.bg11 {
+  width: 100%;
+  height: 100%;
+  color: rgba(13, 16, 51, 0.9);
+  background: -webkit-linear-gradient(0deg, rgba(218,232,234,0.91) 0, rgba(199,203,226,0.62) 70%, rgba(217,218,224,0.73) 94%, rgba(217,218,224,0.73) 100%), url("https://enjoycss.com/bg-img/custom/30952-1iwszzh.e7aj.jpg");
+  background: -moz-linear-gradient(90deg, rgba(218,232,234,0.91) 0, rgba(199,203,226,0.62) 70%, rgba(217,218,224,0.73) 94%, rgba(217,218,224,0.73) 100%), url("https://enjoycss.com/bg-img/custom/30952-1iwszzh.e7aj.jpg");
+  background: linear-gradient(90deg, rgba(218,232,234,0.91) 0, rgba(199,203,226,0.62) 70%, rgba(217,218,224,0.73) 94%, rgba(217,218,224,0.73) 100%), url("https://enjoycss.com/bg-img/custom/30952-1iwszzh.e7aj.jpg");
+  background-position: 50% 50%, 35% 37%;
+  -webkit-background-size: auto auto, cover;
+  background-size: auto auto, cover;
+}
+
