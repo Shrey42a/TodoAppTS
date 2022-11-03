@@ -2,13 +2,15 @@ import React, { FC } from "react";
 import Checkbox from "./Checkbox";
 import { GiSplitCross } from "react-icons/gi";
 import 'animate.css';
+import { todo } from "./models/todo";
+
 
 
 type TodoRowProps = {
-  onDelete: (todo: string) => void;
-  onStatusChange: (todo: string) => void;
+  onDelete: (todo: todo) => void;
+  onStatusChange: (todo: todo) => void;
   done: boolean;
-  todo: string;
+  todo: todo;
 }
 const TodoRow: FC<TodoRowProps> = ({ onDelete, onStatusChange, todo, done }) => {
 
