@@ -36,7 +36,7 @@
 }
 
 .bg20 {
-  border-radius : 20px 140px 140px 20px;
+  border-radius : 20px 20px 20px 20px;
   box-shadow:  2px 2px 5px #7c7d7d, 0px 0px 1px #e4e6e6;
   backdrop-filter: blur(4px) saturate(103%);
   -webkit-backdrop-filter: blur(4px) saturate(103%);
