@@ -4,8 +4,6 @@ import { GiSplitCross } from "react-icons/gi";
 import 'animate.css';
 import { todo } from "./models/todo";
 
-
-
 type TodoRowProps = {
   onDelete: (todo: todo) => void;
   onStatusChange: (todo: todo) => void;

@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 function Card() {
+
   return (
     <>
       <div className="bg11">
